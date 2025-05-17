@@ -1,4 +1,9 @@
 package com.example.UberProject_EntityService.models;
 
-public class CarType {
+public enum CarType {
+    XL,
+    SEDAN,
+    HATCHBACK,
+    COMPACT_SUV,
+    SUV
 }

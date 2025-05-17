@@ -31,4 +31,10 @@ public class Booking extends BaseModel {
     @ManyToOne(fetch = FetchType.LAZY)
     private Passenger passenger;
 
+    @OneToOne
+    private ExactLocation startLocation;
+
+    @OneToOne
+    private ExactLocation endLocation;
+
 }

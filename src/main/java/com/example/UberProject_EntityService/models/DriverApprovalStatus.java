@@ -1,4 +1,7 @@
 package com.example.UberProject_EntityService.models;
 
-public class DriverApprovalStatus {
+public enum DriverApprovalStatus {
+    APPROVED,
+    DENIED,
+    PENDING
 }

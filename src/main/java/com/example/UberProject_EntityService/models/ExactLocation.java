@@ -1,4 +1,16 @@
 package com.example.UberProject_EntityService.models;
 
-public class ExactLocation {
+import jakarta.persistence.Entity;
+import lombok.*;
+
+@Entity
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+public class ExactLocation extends BaseModel {
+
+    private Double latitude;
+    private Double longitude;
 }
